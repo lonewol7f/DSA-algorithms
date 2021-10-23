@@ -8,7 +8,7 @@ merge_sort(A, p, r)
         merge_sort(A, q+1, r)
     merge(A, p, q, r)
 
-merge(A, p, r)
+merge(A, p, q, r)
     n₁ = q - p + 1
     n₂ = r - q
     create arrays L[1.. n₁+1] and R[1.. n₂+1]
